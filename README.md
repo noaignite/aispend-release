@@ -4,6 +4,16 @@ Two quiet rings in your Windows tray — one for **Claude Code**, one for **Curs
 
 A full ring means you’ve spent today’s share of the remaining budget until reset. Green, yellow, and red are optional status dots in the center.
 
+<p align="center">
+  <img src="assets/tray-tooltip.png" alt="System tray tooltip showing Claude daily and weekly usage" width="480" />
+</p>
+
+<p align="center">
+  <img src="assets/details-claude.png" alt="Claude details popup with today’s allowance" width="420" />
+  &nbsp;&nbsp;
+  <img src="assets/details-cursor.png" alt="Cursor details popup when over today’s allowance" width="420" />
+</p>
+
 ---
 
 ## Install
