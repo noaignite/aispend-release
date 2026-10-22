@@ -10,10 +10,21 @@ A full ring means you’ve spent today’s share of the remaining budget until r
 
 **Windows 10 (build 19041+) or Windows 11 · 64-bit · no admin**
 
-Open PowerShell and run:
+### PowerShell (recommended)
+
+1. Press **Win**, type **PowerShell**, open **Windows PowerShell**.
+2. Paste and press Enter:
 
 ```powershell
 irm https://github.com/noaignite/aispend-release/releases/latest/download/install.ps1 | iex
+```
+
+### Command Prompt or Win+R
+
+If you are in **cmd.exe** (or the Run dialog), `irm` will not work. Use this instead:
+
+```bat
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://github.com/noaignite/aispend-release/releases/latest/download/install.ps1 | iex"
 ```
 
 That’s it. The installer:
