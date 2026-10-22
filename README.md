@@ -66,7 +66,7 @@ Pin them if Windows hides them: right-click the taskbar → **Taskbar settings**
 | What you see | Meaning |
 | --- | --- |
 | Empty → full ring | How much of *today’s* allowance you’ve used |
-| Overflow (darker second lap) | You’ve gone past today’s allowance |
+| Full angry red ring | You’ve gone past today’s allowance |
 | Optional center dot | Green / yellow / red vs your thresholds |
 | Tooltip | Short summary (hover the icon) |
 
